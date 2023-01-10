@@ -10,7 +10,7 @@ let visits = 0
 router.get('/', async (req, res) => {
     const result = await redis.getAsync('added_todos');
     res.send({
-        "added_todos": result
+        "added_todos": result ?? 0
     });
 });
 
