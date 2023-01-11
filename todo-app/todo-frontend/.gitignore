@@ -39,6 +39,7 @@ jspm_packages/
 mongo_data/
 redis_data/
 /build
+.devcontainer/
 
 # Typescript v1 declaration files
 typings/
