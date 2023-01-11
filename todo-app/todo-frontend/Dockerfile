@@ -16,7 +16,7 @@ RUN CI=true npm test
 
 FROM test as build
 
-ENV REACT_APP_BACKEND_URL=http://localhost:3000
+ENV REACT_APP_BACKEND_URL=http://localhost:8080/api
 
 RUN npm ci --omit=dev
 
